@@ -1,0 +1,98 @@
+net-misc/tigervnc server
+media-libs/libvpx postproc
+net-fs/samba client
+sys-apps/accountsservice elogind
+sys-libs/zlib minizip
+media-libs/libsndfile alsa
+media-plugins/alsa-plugins pulseaudio
+media-video/ffmpeg mp3
+dev-lang/php truetype xmlreader zip gd curl intl sqlite pdo xmlwriter fpm
+media-gfx/imagemagick -openmp
+app-eselect/eselect-php fpm
+app-editors/emacs gui motif
+app-emacs/emacs-common gui
+dev-lang/php apache2
+app-eselect/eselect-php apache2
+
+# KDE
+kde-plasma/plasma-meta -accessibility -bluetooth -browser-integration -colord -crash-handler -crypt -desktop-portal                -discover -display-manager elogind -handbook -kwallet -legacy-systray -networkmanager -sddm -smart wallpapers -accessibility -bluetooth -browser-integration -colord -crash-handler -crypt -desktop-portal -discover -gtk
+
+dev-qt/qtcore icu
+app-text/xmlto text
+dev-qt/qtgui jpeg
+kde-frameworks/prison qml
+dev-qt/qtgui dbus egl
+media-video/vlc dbus ogg
+kde-frameworks/kconfig qml
+media-libs/mesa wayland
+kde-frameworks/kitemmodels qml
+
+kde-plasma/kwin lock
+sys-apps/dbus elogind
+sys-fs/udisks elogind
+net-misc/networkmanager elogind
+kde-frameworks/sonnet qml
+
+# required by kdecore-meta (argument)
+dev-qt/qtwebengine widgets
+
+# required by dev-qt/qtwebengine-5.15.5_p20220618::gentoo
+# required by www-client/falkon-22.08.2::gentoo
+# required by kde-apps/kdecore-meta-22.08.2::gentoo[webengine]
+# required by kdecore-meta (argument)
+dev-libs/libxml2 icu
+
+# required by dev-qt/qtwebengine-5.15.5_p20220618::gentoo
+# required by www-client/falkon-22.08.2::gentoo
+# required by kde-apps/kdecore-meta-22.08.2::gentoo[webengine]
+# required by kdecore-meta (argument)
+dev-qt/qtwebchannel qml
+
+# Xscreensaver
+x11-libs/cairo opengl
+x11-libs/motif xft
+
+# required by media-gfx/tuxpaint-0.9.28-r2::gentoo
+# required by tuxpaint (argument)
+>=media-libs/sdl-image-1.2.12_p20210314 png
+# required by media-gfx/tuxpaint-0.9.28-r2::gentoo
+# required by tuxpaint (argument)
+>=media-gfx/graphicsmagick-1.3.38-r3 svg png
+
+# required by games-kids/gcompris-1.0::gentoo
+# required by gcompris (argument)
+>=dev-qt/qtmultimedia-5.15.5-r1 gstreamer
+
+# QTCurve
+#
+x11-themes/qtcurve qt5 plasma
+
+# Warmux
+media-libs/sdl-mixer vorbis
+
+# Kopete (do I need this?)
+app-crypt/gpgme qt5
+
+# WINE
+media-libs/libsdl2 haptic
+
+# virt-manager
+net-dns/dnsmasq script
+app-emulation/virt-manager gui
+net-misc/spice-gtk usbredir
+
+# flightgear
+dev-games/openscenegraph png
+net-p2p/transmission qt5
+
+# xnee
+virtual/imagemagick-tools png
+x11-misc/xnee gnome
+
+app-arch/p7zip rar -kde -wxwidgets
+
+x11-libs/fltk games
+
+# XFCE4
+dev-libs/libdbusmenu gtk3
+
